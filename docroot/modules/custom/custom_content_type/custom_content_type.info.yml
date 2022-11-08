@@ -1,0 +1,7 @@
+name: Custom Content Type
+type: "module"
+description: "This module provides test content type."
+core_version_requirement: ^9
+dependencies:
+  - drupal:node
+  - custom_image_styles
