@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: extra_large
+label: 'Extra Large'
+effects:
+  930f07b1-79b2-46aa-adcf-9e323f825811:
+    uuid: 930f07b1-79b2-46aa-adcf-9e323f825811
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 1024
+      anchor: center-center
