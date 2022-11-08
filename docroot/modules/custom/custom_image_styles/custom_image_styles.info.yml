@@ -1,0 +1,6 @@
+name: "Custom Image Styles"
+type: module
+description: "This is custom module having all image styles."
+core_version_requirement: ^9
+dependencies:
+  - drupal:image
