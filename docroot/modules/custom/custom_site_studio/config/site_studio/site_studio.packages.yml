@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: custom_site_studio
+    path: pack_site_studio_core
+  options:
+    extra-validation: false

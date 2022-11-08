@@ -1,0 +1,18 @@
+<?php
+
+use Drupal\cohesion\Controller\AdministrationController;
+
+ /**
+  * Implements hook_install().
+  */
+  function custom_site_studio_install($is_syncing) {
+    $config = \Drupal::config("cohesion.settings");
+    $apiKey = $config->get('api_key') ?? "";
+    $orgKey = $config->get('organization_key') ?? "";
+    // If site studio configuration overridden from settings.php,
+    // then import base site studio packages.
+    if ($apiKey && $orgKey && !$is_syncing) {
+      batch_set(AdministrationController::batchAction(TRUE));
+    }
+  }
+
