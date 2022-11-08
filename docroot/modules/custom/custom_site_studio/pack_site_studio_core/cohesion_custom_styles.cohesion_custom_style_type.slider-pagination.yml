@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Slider pagination'
+id: slider-pagination
+element: null

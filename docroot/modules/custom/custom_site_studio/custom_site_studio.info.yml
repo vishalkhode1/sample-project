@@ -1,0 +1,11 @@
+name: "Custom Site Studio"
+type: "module"
+description: "This module provides custom site studio core package."
+core_version_requirement: ^9
+dependencies:
+  - custom_image_styles
+  - cohesion:cohesion
+  - cohesion:cohesion_website_settings
+  - cohesion:cohesion_custom_styles
+  - cohesion:cohesion_elements
+  - cohesion:cohesion_sync
